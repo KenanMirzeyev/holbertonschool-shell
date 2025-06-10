@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod a+x "$d"
+for d in */; do chmod a+x "$d"; done
